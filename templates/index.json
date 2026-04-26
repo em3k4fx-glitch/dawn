@@ -44,10 +44,11 @@
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 20,
+        "image": "shopify://shop_images/ChatGPT_Image_27._Apr._2026_00_40_38.png",
+        "image_overlay_opacity": 30,
         "image_height": "large",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "bottom-left",
         "desktop_content_alignment": "center",
         "show_text_box": true,
         "color_scheme": "scheme-1",
