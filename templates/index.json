@@ -9,6 +9,54 @@
  */
 {
   "sections": {
+    "image_banner_ywFQhg": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ehabPr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Für sie",
+            "heading_size": "h1"
+          }
+        },
+        "text_Gnkf3m": {
+          "type": "text",
+          "settings": {
+            "text": "Zeitlose Accessoires für sie – modern, minimalistisch, luxuriös.",
+            "text_style": "body"
+          }
+        },
+        "buttons_caDHHd": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "/collections/fuer-sie",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop now",
+            "button_link_2": "/collections/fuer-ihn",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ehabPr",
+        "text_Gnkf3m",
+        "buttons_caDHHd"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "multicolumn_dPHzQg": {
       "type": "multicolumn",
       "blocks": {
@@ -63,36 +111,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection_pzdck7": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -119,34 +137,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
         "padding_bottom": 36
       }
     },
@@ -251,54 +241,6 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_ywFQhg": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_ehabPr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Für sie",
-            "heading_size": "h1"
-          }
-        },
-        "text_Gnkf3m": {
-          "type": "text",
-          "settings": {
-            "text": "Zeitlose Accessoires für sie – modern, minimalistisch, luxuriös.",
-            "text_style": "body"
-          }
-        },
-        "buttons_caDHHd": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "/collections/fuer-sie",
-            "button_style_secondary_1": false,
-            "button_label_2": "Shop now",
-            "button_link_2": "/collections/fuer-ihn",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_ehabPr",
-        "text_Gnkf3m",
-        "buttons_caDHHd"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-4",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
     "slideshow_MHyJjK": {
       "type": "slideshow",
       "blocks": {
@@ -353,160 +295,6 @@
         "accessibility_info": "Slideshow zu deiner Marke"
       }
     },
-    "image_banner_9zFRrj": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_aB4XJG": {
-          "type": "heading",
-          "settings": {
-            "heading": "Neu bei Aurèle de Noir",
-            "heading_size": "h0"
-          }
-        },
-        "text_iGqbVN": {
-          "type": "text",
-          "settings": {
-            "text": "Entdecke unser neuestes Modell – das Rope Bracelet. Zeitlos, elegant, unverwechselbar.",
-            "text_style": "body"
-          }
-        },
-        "buttons_FpMwmC": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Jetzt shoppen",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_aB4XJG",
-        "text_iGqbVN",
-        "buttons_FpMwmC"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image_overlay_opacity": 50,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-4",
-        "stack_images_on_mobile": true,
-        "mobile_content_alignment": "center",
-        "show_text_below": true
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "newsletter_6dH9mM": {
       "type": "newsletter",
       "blocks": {
@@ -543,18 +331,12 @@
     }
   },
   "order": [
+    "image_banner_ywFQhg",
     "multicolumn_dPHzQg",
-    "rich_text",
     "featured_collection_pzdck7",
-    "featured_collection",
     "multicolumn_gRNepj",
     "image_with_text_FTeGYi",
-    "image_banner_ywFQhg",
     "slideshow_MHyJjK",
-    "image_banner_9zFRrj",
-    "collage",
-    "video",
-    "multicolumn",
     "newsletter_6dH9mM"
   ]
 }
