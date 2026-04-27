@@ -9,54 +9,6 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stiller Luxus am Handgelenk",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Für ihn und sie – minimalistisch, elegant und wie gemacht für den Sommer.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Kollektion entdecken",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/ChatGPT_Image_27._Apr._2026_00_40_38.png",
-        "image_overlay_opacity": 30,
-        "image_height": "large",
-        "image_behavior": "none",
-        "desktop_content_position": "bottom-left",
-        "desktop_content_alignment": "center",
-        "show_text_box": true,
-        "color_scheme": "scheme-1",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
     "multicolumn_dPHzQg": {
       "type": "multicolumn",
       "blocks": {
@@ -198,6 +150,257 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_gRNepj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wMHGET": {
+          "type": "column",
+          "settings": {
+            "title": "Für sie",
+            "text": "<p>Zeitlose Accessoires für sie – modern, minimalistisch, luxuriös.</p>",
+            "link_label": "Shop now",
+            "link": "/collections/fuer-sie"
+          }
+        },
+        "column_YpUKFn": {
+          "type": "column",
+          "settings": {
+            "title": "Für ihn",
+            "text": "<p>Stiller Luxus am Handgelenk – reduziert, elegant, unisex.</p>",
+            "link_label": "Shop now",
+            "link": "/collections/fuer-ihn"
+          }
+        },
+        "column_dekiNU": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wMHGET",
+        "column_YpUKFn",
+        "column_dekiNU"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Schaltflächenbeschriftung",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-4",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FTeGYi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_J4kAcK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Unsere Vision",
+            "heading_size": "h1"
+          }
+        },
+        "text_JE3mM4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir verbinden zeitloses Design mit moderner Eleganz – Accessoires für stillen Luxus, gemacht für ihn und sie.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_P4Nwkf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Mehr erfahren",
+            "button_link": "/pages/about",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_J4kAcK",
+        "text_JE3mM4",
+        "button_P4Nwkf"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_ywFQhg": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ehabPr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Für sie",
+            "heading_size": "h1"
+          }
+        },
+        "text_Gnkf3m": {
+          "type": "text",
+          "settings": {
+            "text": "Zeitlose Accessoires für sie – modern, minimalistisch, luxuriös.",
+            "text_style": "body"
+          }
+        },
+        "buttons_caDHHd": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "/collections/fuer-sie",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop now",
+            "button_link_2": "/collections/fuer-ihn",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ehabPr",
+        "text_Gnkf3m",
+        "buttons_caDHHd"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "slideshow_MHyJjK": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_8diafb": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 50,
+            "heading": "Stiller Luxus",
+            "heading_size": "h1",
+            "subheading": "Erzähle deine Geschichte mit Fotos",
+            "button_label": "Shop now",
+            "link": "/collections/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        },
+        "slide_xyr4PD": {
+          "type": "slide",
+          "settings": {
+            "image_overlay_opacity": 50,
+            "heading": "Minimalistischer Chic",
+            "heading_size": "h1",
+            "subheading": "Erzähle deine Geschichte mit Fotos",
+            "button_label": "Shop now",
+            "link": "/collections/all",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-4"
+          }
+        }
+      },
+      "block_order": [
+        "slide_8diafb",
+        "slide_xyr4PD"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow zu deiner Marke"
+      }
+    },
+    "image_banner_9zFRrj": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aB4XJG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Neu bei Aurèle de Noir",
+            "heading_size": "h0"
+          }
+        },
+        "text_iGqbVN": {
+          "type": "text",
+          "settings": {
+            "text": "Entdecke unser neuestes Modell – das Rope Bracelet. Zeitlos, elegant, unverwechselbar.",
+            "text_style": "body"
+          }
+        },
+        "buttons_FpMwmC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Jetzt shoppen",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aB4XJG",
+        "text_iGqbVN",
+        "buttons_FpMwmC"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 50,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -303,16 +506,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_6dH9mM": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_KKiqQj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Melde dich an und sichere dir 10 % Rabatt",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_b4kXgV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Erhalte exklusive Angebote, neue Kollektionen und Styling-Inspirationen direkt in dein Postfach.</p>"
+          }
+        },
+        "email_form_djwbVD": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_KKiqQj",
+        "paragraph_b4kXgV",
+        "email_form_djwbVD"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "image_banner",
     "multicolumn_dPHzQg",
     "rich_text",
     "featured_collection_pzdck7",
     "featured_collection",
+    "multicolumn_gRNepj",
+    "image_with_text_FTeGYi",
+    "image_banner_ywFQhg",
+    "slideshow_MHyJjK",
+    "image_banner_9zFRrj",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "newsletter_6dH9mM"
   ]
 }
